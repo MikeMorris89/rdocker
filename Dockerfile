@@ -21,7 +21,6 @@ RUN R -e "install.packages('stringr' ,dep=T)"
 RUN R -e "install.packages('shinyjs', dep=T)"
 RUN R -e "install.packages('ggthemes' ,dep=T)" 
 RUN R -e "install.packages('lubridate' ,dep=T)" 
-RUN R -e "install.packages('htmlwidgets'  ),dep=T)" 
 RUN R -e "install.packages('shinyBS' ),dep=T)"
 RUN R -e "install.packages('ggplot2' ,dep=T)" 
 RUN R -e "install.packages('plotly' ,dep=T)" 
@@ -37,5 +36,7 @@ RUN R -e "install.packages('xtable' ,dep=T)"
 RUN R -e "install.packages('dplyr' ,dep=T)" 
 RUN R -e "install.packages('XLConnect' ,dep=T)" 
 RUN R -e "install.packages('tidyverse' ,dep=T)" 
+
+#RUN R -e "install.packages('htmlwidgets'  ),dep=T)" 
 
 
